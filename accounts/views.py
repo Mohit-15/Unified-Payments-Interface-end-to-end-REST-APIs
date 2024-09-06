@@ -219,7 +219,7 @@ def activate(request, uidb64, token):
         send_mail(
             subject,
             message,
-            "msbproject1234@gmail.com",
+            "9921008093@klu.ac.in",
             [user.email],
             fail_silently=False,
         )
