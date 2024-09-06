@@ -7,6 +7,7 @@ from django.views.generic import RedirectView
 urlpatterns = [
     path('api/user/', include("accounts.urls")),
     path('api/user/upi/', include("upi_ids.urls")),
+    path('api/user/transactions/', include("transactions.urls")),  # Ensure transactions URLs are included
     re_path(r"^favicon\.ico$", RedirectView.as_view(url="/static/images/favicon.ico")),
     path('admin/', admin.site.urls),
 ]
