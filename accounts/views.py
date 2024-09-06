@@ -13,7 +13,7 @@ from django.template.loader import render_to_string
 from django.core.mail import send_mail
 from accounts.models import User, UserDetail
 from accounts.token import account_activation_token
-from django.utils.encoding import force_text
+from django.utils.encoding import force_str
 from django.utils.http import urlsafe_base64_decode
 from random import randint
 from twilio.rest import Client

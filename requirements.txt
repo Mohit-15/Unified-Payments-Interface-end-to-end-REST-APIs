@@ -15,7 +15,6 @@ idna==3.3
 importlib-metadata==4.8.3
 importlib-resources==5.2.3
 nodeenv==1.6.0
-numpy==1.19.5
 opencv-python==4.6.0.66
 passlib==1.7.4
 Pillow==8.4.0
@@ -27,7 +26,6 @@ pycparser==2.21
 PyJWT==2.4.0
 python-dotenv==0.20.0
 pytz==2022.1
-PyYAML==6.0
 qrcode==7.3.1
 requests==2.27.1
 rsa==4.8
